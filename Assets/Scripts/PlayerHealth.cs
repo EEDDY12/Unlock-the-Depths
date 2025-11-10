@@ -30,9 +30,11 @@ public class PlayerHealth : MonoBehaviour
     }
 
     void Die()
-    {
-        Debug.Log("Player Died!");
-        // TODO: Respawn or reload scene
-    }
+{
+    Debug.Log("Player died!");
+    UnityEngine.SceneManagement.SceneManager.LoadScene(
+        UnityEngine.SceneManagement.SceneManager.GetActiveScene().buildIndex
+    );
+}
 }
 
