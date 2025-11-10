@@ -7,6 +7,7 @@ public class PlayerHealth : MonoBehaviour
     public AudioSource hurtSound;
 
     public int maxHealth = 100;
+    public AudioSource damageSound; // Assign this in inspector
     public int currentHealth;
 
     public delegate void HealthChanged(int current, int max);
@@ -22,6 +23,10 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth -= amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+
+                // Play damage sound
+        if (damageSound != null)
+            damageSound.Play();
 
         OnHealthChanged?.Invoke(currentHealth, maxHealth);
 

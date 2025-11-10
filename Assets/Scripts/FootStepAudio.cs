@@ -37,7 +37,7 @@ public class FootStepAudio : MonoBehaviour
         bool isGrounded = controller.isGrounded;
         bool isSprinting = sprintAction.IsPressed();
 
-        Debug.Log("Move: " + move + "  isMoving: " + isMoving);
+        //Debug.Log("Move: " + move + "  isMoving: " + isMoving);
 
         if (isGrounded && isMoving)
         {
