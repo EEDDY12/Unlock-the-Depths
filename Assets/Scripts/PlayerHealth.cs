@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
+    public AudioSource hurtSound;
+
     public int maxHealth = 100;
     public int currentHealth;
 
