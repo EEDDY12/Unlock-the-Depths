@@ -8,7 +8,7 @@ public class TrapDamage : MonoBehaviour
     public bool damageOverTime = false; // if true, hurts while standing on top
     public float damageInterval = 1f;
     private float timer = 0f;
-   private bool playerInside = false;
+    private bool playerInside = false;
     private FireTrapController fireController;
 
       private void Start()
