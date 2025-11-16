@@ -115,6 +115,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   keyID: 0
   pickupSound: {fileID: 0}
+  daDoor: {fileID: 0}
 --- !u!82 &-191812744118639831
 AudioSource:
   m_ObjectHideFlags: 0

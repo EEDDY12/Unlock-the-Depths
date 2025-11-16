@@ -7,3 +7,4 @@ Group Members: Ethan Eddy, Hunter Cummins, Jared Fitzsimmons
 - Big Oak Tree - Standard Unity Asseet Store EULA
 - Dungeon Skeletons Demo - Standard Unity Asseet Store EULA
 - 3D Dungeon Low Poly Pack - Standard Unity Asseet Store EULA
+- Unity Companion License
