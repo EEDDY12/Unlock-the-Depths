@@ -10,4 +10,4 @@ Group Members: Ethan Eddy, Hunter Cummins, Jared Fitzsimmons
 - Unity Companion License
 
 ## Play Link:
-- https://play.unity.com/en/games/e74fafdc-d43f-4626-8f25-88738f1de72a/webgl-builds
+- [https://play.unity.com/en/games/e74fafdc-d43f-4626-8f25-88738f1de72a/webgl-builds](https://play.unity.com/en/games/6a4cf7fb-b19d-41f1-81f3-64bd7279d58d/unlock-the-depths)
