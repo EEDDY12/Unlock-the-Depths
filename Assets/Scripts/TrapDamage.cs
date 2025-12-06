@@ -33,7 +33,7 @@ public class TrapDamage : MonoBehaviour
         if (other.CompareTag("Player") && damageOverTime)
         {
             timer += Time.deltaTime;
-
+            playerInside = true;
             if (timer >= damageInterval)
             {
                 other.GetComponent<PlayerHealth>().TakeDamage(damageAmount);
